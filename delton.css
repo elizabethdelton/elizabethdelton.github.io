@@ -1,0 +1,107 @@
+body {
+    margin: 0 auto;
+    background-image: url("flower.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    font-family: 'Open Sans Condensed';
+    color:lightgray;
+    opacity: 1.0;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#intro {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+    background-color: black;
+    opacity: 0.8; 
+    text-align:center;
+    color: white;
+    font-family: 'Open Sans Condensed';
+    font-size: x-large;
+    max-width:100% ;
+    float: left;
+    border:1px solid #61e8a9; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: block;
+    color: #61e8a9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: gray;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.info {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+    background-color: black;
+    opacity: 0.8;
+    text-align:left;
+    color: white;
+    font-family: 'Open Sans Condensed';
+    font-size: x-large;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width:100% ;
+    float: left;
+    border:1px solid #61e8a9; 
+} 
+
+p {
+    text-indent: 50px;
+}
+
+#stacc{
+    float: left;   
+}
